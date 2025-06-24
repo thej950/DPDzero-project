@@ -14,7 +14,7 @@ This project includes:
  - The app is ready with port 8001
 
 ## service2
- - it is lightweight python container to run Falsk app port open 8002
+ - it is lightweight python container to run Flask app port open 8002
  - uv used as package manager 
  - Builds the app with larger python:slim environment 
  - runs app in alpine environment for reduce image size 
@@ -46,6 +46,7 @@ This project includes:
  cd DPDzero-project
  docker-compose up -d 
  ```
+ 
  ```bash
  docker-compose up --build
  ```
